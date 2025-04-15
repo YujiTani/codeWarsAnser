@@ -2,3 +2,8 @@
 function solution(string) {
   return string.replaceAll(/[A-Z]/g, (char) =>  ` ${char.toUpperCase()}`)
 }
+
+// no1 crazy
+function solution(string) {
+  return(string.replace(/([A-Z])/g, ' $1'));
+}
